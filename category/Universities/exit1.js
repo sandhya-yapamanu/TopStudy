@@ -1,6 +1,6 @@
 function back(){
-    window.location.href="../non-vegetarian.html";
+    window.location.href="../Universities.html";
 }
 function home(){
-    window.location.href="../../home.html";
+    window.location.href="../../index.html";
 }

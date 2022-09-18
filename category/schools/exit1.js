@@ -1,6 +1,6 @@
 function back(){
-    window.location.href="../vegetarian.html";
+    window.location.href="../schools.html";
 }
 function home(){
-    window.location.href="../../home.html";
+    window.location.href="../../index.html";
 }
