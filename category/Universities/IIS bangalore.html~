@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- ADD Title Below -->
+        <title>Egg Fried Rice</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" type="text/css" href="recipe_style.css">
+    </head>
+    <body>
+    <div id="Ingredients">
+        <div class="container">
+            <button class="btn" onclick="back()">Back</button>
+            <button class="btn" onclick="home()">Home</button>
+        </div>
+        <script src="exit1.js" > </script>
+        <h2>INGREDIENTS</h2><br>
+        <p id="ing">
+            <!-- ADD Ingredients Below -->
+        3 cup Cooked Basmati Rice<br>
+        ¼ cup Oil<br>
+        2 tsp Garlic<br>
+        ¼ cup Onion<br>
+        ¼ cup Red Bell Pepper<br>
+        ¼ cup Green Bell Pepper<br>
+        ¼ cup Carrots<br>
+        ¼ cup Cabbage<br>
+        4 Eggs<br>
+        2 tsp Soy Sauce<br>
+        1 tbsp Ketchup<br>
+        2 tsp Garam Masala <br>
+        Salt, as needed<br>
+        1 tsp Pepper Powder<br>
+        Spring Onions<br>
+        </p>
+        <h2>INSTRUCTIONS</h2>
+        <p>
+            <ol type="1" id="inst" >
+                <!-- ADD Instructions Below -->
+            <li>In a pan with medium heat, pour oil and add the finely chopped garlic and saute until it turns aromatic. Make sure not to burn the garlic which may alter the flavor of the fried rice<br></li> 
+          <li>Now add the thinly chopped onion and saute until it turns soft<br></li>
+            <li>Next add red and green bell pepper, carrots and saute for about 1 minute  <br></li>
+             <li>Add finely sliced cabbage to the above mixture and give a quick stir. Since cabbage would leave the water immediately, we haven't added it along with other veggies to maintain the crunchiness of the cabbage<br></li>
+             <li>Now make a space in the middle of the pan by pushing the veggies outwards and add the beaten frothy eggs  <br></li>
+             <li>Scramble the eggs until it turns soft and fluffy. Before adding to the pan, the eggs are beaten to frothy to give a nice moist and fluffy egg scramble  <br></li>
+             <li>Add garam masala, ketchup, soy sauce and combine everything well<br></li>
+             <li>Now add salt and mix everything well<br></li>
+             <li>Add the cooked basmati rice, pepper powder and mix everything gently<br></li>
+             <li>Add the chopped spring onions and give it a gentle toss<br></li>
+             <li>Now the delicious vegetable egg fried rice is ready for you to taste and enjoy<br></li>
+        </ol>
+        </p>
+    </div>
+    <div id="recipe">
+        <!-- ADD Recipe Image below -->
+    <img src="IIS bangalore.jpg"/>
+    <h1>Egg Fried Rice</h1>
+    <table>
+        <tr>
+            <th><img class="icons" src="outline_restaurant_black_24dp.png"/></th>
+            <!-- ADD Servings below -->
+            <th>3 servings</th>
+            <th> &nbsp; &nbsp;&nbsp;&nbsp; </th>
+            <th><img class="icons" src="outline_timer_black_24dp.png"/></th>
+            <!-- Add Duration Below -->
+            <th>25 minutes</th>
+        </tr>
+    </table>
+    <p id="about">
+        <!-- ADD Discription Below -->
+        The recipe given here is made with Chinese sauces and Indian garam masala which is unique and spruces up the taste of this delicious fried rice. Even though this version is slightly different from the Vegetable Fried Rice, the taste of this dish with masala is worth trying at home.<br>
+        This fried rice is widely popular in India and I have tried to recreate the same recipe here with fresh and healthy veggies, eggs, and traditional Chinese sauce like chili and Schezwan Sauce. The taste and flavor of this dish hold great when you could enjoy the dish warm. So, yeah be sure to taste it as soon as it is cooked.<br>
+        Though I have used eggs and sauces, you could skip it for the vegan version of the dish. The best part of this simple meal is, it could be done in under 30 minutes if you have a bowl of pre-cooked or leftover rice at home.<br>
+
+
+
+    </p>
+    <br>
+    <div id="rate">
+        <h3>Rate this Recipe</h3>
+
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>
+    </div>    
+    
+    </body>
+    
+</html>

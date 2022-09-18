@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- ADD Title Below -->
+        <title>Kadai Paneer curry</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" type="text/css" href="recipe_style.css">
+    </head>
+    <body>
+    <div id="Ingredients">
+        <div class="container">
+            <button class="btn" onclick="back()">Back</button>
+            <button class="btn" onclick="home()">Home</button>
+        </div>
+        <script src="exit1.js" > </script>
+        <h2>INGREDIENTS</h2><br>
+        
+
+        <p id="ing">
+            <!-- ADD Ingredients Below -->
+        5 to 6 kashmiri red chilies – broken and seeds removed<br>
+	1.5 tablespoons coriander seeds <br>
+        3 tablespoons oil<br>
+        ⅓ to ½ cup finely chopped onions – 90 grams or 1 medium-sized<br>
+        2.5 to 3 cups finely chopped tomatoes – 400 grams or 5 to 6 medium-sized)<br>
+        2 teaspoons ginger-garlic paste<br>
+        ¾ to 1 cup thinly sliced capsicum or 1 large (bell pepper)<br>
+        1 to 2 green chilies or 1 small serrano pepper – slit<br>
+        ½ cup water or add as required<br>
+        ½ teaspoon Garam Masala Powder<br>
+        250 grams Paneer – cubed (cottage cheese)<br>
+        1 teaspoon kasuri methi – crushed (dried fenugreek leaves)<br>
+        2 tablespoons chopped coriander leaves (cilantro leaves)<br>
+        1 inch ginger – julienne<br>
+        salt as required<br>  
+  
+        </p>
+        <h2>INSTRUCTIONS</h2>
+        <p>
+            <ol type="1" id="inst" >
+                <!-- ADD Instructions Below -->
+            <li>firstly, in a large kadai, heat 1 tbsp butter and saute 1 bay leaf, 1 green chilli, 1 tsp kasuri methi till they aromatic.<br></li> 
+          <li>further saute ½ onion petals and ½ cubed capsicum.<br></li>
+           <li>add ¼ tsp turmeric and ½ tsp chilli powder.<br></li>
+	<li>further add blended tomato-onion paste and mix well.<br></li> 
+	<li>in addition, add prepared kadai masala and 1 tsp salt.<br></li>
+	<li>cook till the masala paste starts to release oil.<br></li>
+	<li>now add ½ to 1 cup water adjusting consistency as required.<br></li>
+	<li>add 12 cubes homemade paneer, 2 tbsp cream and mix gently.<br></li>	
+	<li>cover and simmer for 5 minutes.<br></li>
+	<li>furthermore, add ¼ tsp garam masala and 2 tbsp coriander leaves. mix well.<br></li>
+	<li>finally, serve restaurant-style kadai paneer gravy hot with garlic naan or chapati.<br></li>
+        </ol>
+        </p>
+    </div>
+    <div id="recipe">
+        <!-- ADD Recipe Image below -->
+    <img src="xavariersch.jpg">
+    <h1>Kadai Paneer curry</h1>
+    <table>
+        <tr>
+            <th><img class="icons" src="outline_restaurant_black_24dp.png"/></th>
+            <!-- ADD Servings below -->
+            <th>2 servings</th>
+            <th> &nbsp; &nbsp;&nbsp;&nbsp; </th>
+            <th><img class="icons" src="outline_timer_black_24dp.png"/></th>
+            <!-- Add Duration Below -->
+            <th>15 minutes</th>
+        </tr>
+    </table>
+    <p id="about">
+        <!-- ADD Discription Below -->
+        As the name suggests, Kadai Paneer is a recipe using Indian style cottage cheese.<br> 
+        Paneer is a fresh cheese made by curdling milk with lemon juice or vinegar.<br> 
+        Unlike American style cottage cheese that is loose and has individual curds, paneer is firm (like tofu), non-melting and can be easily cut into cubes.<br>
+        The word kadai refers to a humble piece of Indian cookware.<br> 
+        A kadai is similar to a Chinese wok, but with steeper sides and more depth.<br> 
+        This entire dish is made in the kadai, and thus the dish is named “Kadai Paneer” or “Karahi Paneer”.<br>
+    </p>
+    <br>
+    <div id="rate">
+        <h3>Rate this Recipe</h3>
+
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>
+    </div>    
+    
+    </body>
+    
+</html>

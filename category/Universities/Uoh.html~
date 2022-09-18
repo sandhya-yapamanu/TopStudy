@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <!-- ADD Title Below -->
+        <title>Chicken Biryani</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" type="text/css" href="recipe_style.css">
+    </head>
+    <body>
+    <div id="Ingredients">
+        <div class="container">
+            <button class="btn" onclick="back()">Back</button>
+            <button class="btn" onclick="home()">Home</button>
+        </div>
+        <script src="exit1.js" > </script>
+        <h2>INGREDIENTS</h2><br>
+        <p id="ing">
+            <!-- ADD Ingredients Below -->
+        1 tbsp vegetable oil <br>
+        10 grams garlic<br>
+        10 grams ginger<br>
+        1 serrano chili peppers<br>
+        5 grams mint <br>
+        10 grams cilantro <br>
+        1 tbsp garam masala<br>
+        3 tsp salt<br>
+        900 grams bone-in skin-on chicken<br>
+        6 cups water<br>
+        5 pods green cardamom<br>
+        1 tsp cumin seeds<br>
+        1 bay leaf<br>
+        360 grams basmati rice <br>
+        2 tbsp ghee<br>
+        2 medium onions<br>
+        1/2 tsp saffron threads<br>
+        </p>
+        <h2>INSTRUCTIONS</h2>
+        <p>
+            <ol type="1" id="inst" >
+                <!-- ADD Instructions Below -->
+            <li>To marinate the chicken for the biryani, combine the vegetable oil, garlic, ginger, chili peppers, mint, cilantro, garam masala, cinnamon and salt in a large bowl and stir together. Add the chicken pieces and toss together making sure the chicken is thoroughly coated in the marinade. Allow the chicken to marinate for at least 1 hour or up to overnight.<br></li> 
+          <li>In a pot wide enough to hold the chicken in a single layer, add the ghee and onions and saute the onions until they are well caramelized (15-20 minutes). Transfer the caramelized onions to a bowl and set aside.<br></li>
+            <li>While the onions caramelize, prepare the rice by washing in a strainer under cold running water until the water runs clear.<br></li>
+             <li>To par-boil the rice, add the water, salt, cardamom, cumin and bay leaf to a pot and bring to a boil. Add the rice and boil for 7 minutes. Drain the rice, reserving 1 cup of the liquid.<br></li>
+             <li>In the pot you caramelized the onions in, add the chicken in a single layer, skin-side down. Fry until golden brown on one side (about 5 minutes). Flip the chicken over and fry the other side until golden brown. Transfer the chicken back to the bowl you marinated it in.<br></li>
+             <li>To assemble the biryani, add the saffron to the rice and toss to distribute evenly. Add half the rice mixture to the bottom of the pot you browned the chicken in.<br></li>
+             <li>Top the rice with the chicken in a single layer.<br></li>
+             <li>Top the chicken with an even layer of caramelized onions.<br></li>
+             <li>Finish putting together the Biryani by adding the rest of the rice in an even layer. Add 1 cup of reserved liquid from boiling the rice. Cover the pot with a lid and put the pot on the stove over medium heat and set the timer for 20 minutes. When you can see steam escaping from under the lid, turn down the heat to low and continue cooking until the timer goes off and then turn off the heat.<br></li>
+             <li>Without opening the lid, set the timer for another 10 minutes to steam the biryani.<br></li>
+             <li>Mix the Chicken Biryani together and then transfer to a serving platter. Garnish with fresh cilantro and serve.</li>
+        </ol>
+        </p>
+    </div>
+    <div id="recipe">
+        <!-- ADD Recipe Image below -->
+    <img src="Uoh.jpg"/>
+    <h1>Chicken Biryani</h1>
+    <table>
+        <tr>
+            <th><img class="icons" src="outline_restaurant_black_24dp.png"/></th>
+            <!-- ADD Servings below -->
+            <th>5 servings</th>
+            <th> &nbsp; &nbsp;&nbsp;&nbsp; </th>
+            <th><img class="icons" src="outline_timer_black_24dp.png"/></th>
+            <!-- Add Duration Below -->
+            <th>2hrs 30 minutes</th>
+        </tr>
+    </table>
+    <p id="about">
+        <!-- ADD Discription Below -->
+        Although widely associated with Indian cuisine, Chicken Biryani is a dish that has spread across a wide swath of South Asia, reaching as far west as Iraq and as far east as Indonesia. The vast geographical area Biryani calls home has resulted in a wide variety of preparations and ingredients; however, it is typically prepared by layering seasoned chicken with rice and aromatics and steaming them together.<br>
+        I like to serve my Chicken Biryani with cooling raita made with yogurt, mint, cilantro, and a pinch of salt, but this is also good with a variety of different chutneys. I know it’s a lot of carbs, but I also love serving biryani with a basket of fresh pillowy naan, my friend Bee over at Rasa Malaysia has a fantastic Fail-Proof Naan recipe that I’m a fan of.<br>
+
+
+    </p>
+    <br>
+    <div id="rate">
+        <h3>Rate this Recipe</h3>
+
+        <input type="radio" id="star5" name="rate" value="5" />
+        <label for="star5" title="text">5 stars</label>
+        <input type="radio" id="star4" name="rate" value="4" />
+        <label for="star4" title="text">4 stars</label>
+        <input type="radio" id="star3" name="rate" value="3" />
+        <label for="star3" title="text">3 stars</label>
+        <input type="radio" id="star2" name="rate" value="2" />
+        <label for="star2" title="text">2 stars</label>
+        <input type="radio" id="star1" name="rate" value="1" />
+        <label for="star1" title="text">1 star</label>
+      </div>
+    </div>    
+    
+    </body>
+    
+</html>
